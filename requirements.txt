@@ -1,0 +1,4 @@
+pypdf
+chromadb
+ollama
+sentence-transformers
