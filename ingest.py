@@ -10,6 +10,7 @@ PDF_PATH="data/sample.pdf"
 def read_pdf(path):
     reader = PdfReader(path)
 
+
     pages=[]
 
     for page_number,page in enumerate(reader.pages,start=1):

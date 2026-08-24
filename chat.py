@@ -8,6 +8,7 @@ embedding_model = SentenceTransformer(
     "sentence-transformers/all-miniLM-L6-v2"
 )
 
+
 client = chromadb.PersistentClient(
     path="./chroma_db"
 )
