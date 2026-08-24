@@ -1,4 +1,4 @@
-pypdf
 chromadb
 ollama
 sentence-transformers
+pypdf
